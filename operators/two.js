@@ -8,7 +8,7 @@
 
 
 // // JavaScript to illustrate 
-// // multiple Conditional operators
+
 // let marks = 95;
 // let res = (marks < 40) ? "Unsatisfactory" :
 //           (marks < 60) ? "Average" :
@@ -58,30 +58,6 @@ console.log(a, b, c);
 
 
 
-// let s1 = "12";
-// // Using unary plus to convert string to number
-// let x = +s1;
-// console.log(x);
-// // Here we are using typeof operator
-// console.log(typeof (x))
-// // "Geeks" cannot be converted to a number
-// let s2 = +"Geeks";
-// console.log(s2);
-
-
-
-
-// let s1 = "12";
-// // Unary negation, negates the
-// // value of number
-// let x = -s1;
-// console.log(x);
-// // Unary negation, tries to convert
-// // 'Geeks' to a number
-// let s2 = -"Geeks";
-// console.log(s2);
-
-
 
 
 // // Case 1: Postfix
@@ -89,7 +65,6 @@ console.log(a, b, c);
 // let y = x++;
 // console.log(x);
 // console.log(y);
-// // Case 2: Preifix
 // x = 10;
 // y = ++x;
 // console.log(x);
@@ -120,17 +95,10 @@ console.log(a, b, c);
 
 
 
-// let x = 10;
-// // Bitwise NOT, inverts all bits of 'num'
-// let y = ~x;
-// console.log(y);
-
-
-
 // let x = 18;
-// let s = "GeeksforGeeks";
+// let s = "javascript";
 // let isTrue = true;
-// let obj = { name: "Aman", age: 21 };
+// let obj = { name: "Kaif", age: 21 };
 // let undefinedVar;
 // console.log(typeof x);
 // console.log(typeof s);
@@ -142,7 +110,7 @@ console.log(a, b, c);
 
 
 // let person = {
-//     name: "Ankit",
+//     name: "Kaif",
 //     age: 21,
 //     city: "Noida"
 // };
@@ -152,12 +120,7 @@ console.log(a, b, c);
 
 
 
-// function myFunction() {
-//     return void 0;
-// }
-// console.log(myFunction());
-
-
+/
 
 // let languages = ["HTML", "CSS", "JavaScript"];
 // // true (index 1 exists in the array)
@@ -180,15 +143,6 @@ console.log(a, b, c);
 
 
 
-// let languages = ["HTML", "CSS", "JavaScript"];
-
-// console.log(languages instanceof Array);
-// console.log(languages instanceof Object);
-// console.log(languages instanceof String);
-// console.log(languages instanceof Number);
-
-
-
 
 // let myString = new String();
 // let myDate = new Date();
@@ -202,17 +156,7 @@ console.log(a, b, c);
 
 
 
-// let s1 = "Geeks";
-// let s2 = "forGeeks";
-// let res = (s1 + s2);
-// console.log(res);
 
-
-
-// let s1 = "Geeks";
-// let s2 = "forGeeks";
-// s1 += s2; 
-// console.log(s1);
 
 
 
@@ -228,15 +172,6 @@ console.log(a, b, c);
 
 
 
-// let s1 = "gfg";
-// let s2 = "ggg";
-// console.log(s1 != s2);
-
-
-
-// let s1 = "gfg"; // Primitive Type
-// let s2 = new String("ggg"); // Object type
-// console.log(s1 != s2);
 
 
 
